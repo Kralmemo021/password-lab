@@ -2,12 +2,15 @@
 
 Educational password security analysis tool for Termux.
 
-## Features
-- Password entropy analysis
-- Security scoring
-- Common password detection
-- Strong password generator
-- Rich terminal UI
+pkg update -y && pkg upgrade -y
+
+pkg install git python -y
+
+git clone https://github.com/Kralmemo021/siber-sifre-denetim-laboratuvari.git
+
+cd siber-sifre-denetim-laboratuvari
+
+pip install -r requirements.txt
 
 ## Install
 
